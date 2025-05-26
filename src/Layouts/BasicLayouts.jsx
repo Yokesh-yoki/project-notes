@@ -22,6 +22,9 @@ function BasicLayouts() {
       <main className="bg-white">
         <Outlet />
       </main>
+      <footer className="bg-indigo-100 text-indigo-700 text-xs text-center  border-t">
+        © {new Date().getFullYear()} Notes App. All rights reserved.
+      </footer>
     </>
   );
 }
